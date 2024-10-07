@@ -6,7 +6,7 @@ class MyThread extends Thread{
         public Object get() {
             return "pp";
         }
-    };
+};
     public void run(){
         tl.set("Test");
         System.out.println(tl.get());
