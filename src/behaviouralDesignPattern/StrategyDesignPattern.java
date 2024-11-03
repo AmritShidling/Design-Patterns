@@ -1,4 +1,4 @@
-import javax.swing.plaf.PanelUI;
+package behaviouralDesignPattern;
 
 interface PricingStrategy{
     public double calculatePrice(double regularPrice);
