@@ -1,4 +1,4 @@
-package behaviouralDesignPattern;
+package behaviouralDesignPattern.strategyDesignPattern;
 
 interface PricingStrategy{
     public double calculatePrice(double regularPrice);
